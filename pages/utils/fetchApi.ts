@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const baseUrl:string = 'https://bayut.p.rapidapi.com/properties';
+export const baseUrl:string = 'https://bayut.p.rapidapi.com/properties/list';
 export const baseDetailsUrl:string = 'https://bayut.p.rapidapi.com/properties';
 
 export const fetchApi = async(url: string) => {
